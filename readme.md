@@ -24,6 +24,8 @@ see complete explanation [npm on wsl extremely slow](https://stackoverflow.com/a
 
 
 ## Steps
+
+### Manual installation
 1. **Install Git for Windows SDK** [latest release](https://github.com/git-for-windows/build-extra/releases). (you probably want the 64bit versions so the file should be named something like `git-sdk-installer-1.0.8-64.7z.exe`) this would takes few minutes and around 5GB of space.
 2. **open the newly installed git sdk bash** in `<git-sdk-dir>/git-bash.exe` (for example `C:\Software\git-sdk-64\git-bash.exe`). on first run, it is possible that few commands would run to setup the environment. wait for it to finish.
 3. **Installing oh-my-zsh with p10k theme**: in git sdk bash terminal,  
@@ -72,7 +74,17 @@ see complete explanation [npm on wsl extremely slow](https://stackoverflow.com/a
     ```
 6. **Configuring windows terminal**
     download these fonts and follow the instructions: https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual-font-installation
-    add a new windows terminal profile with the following command line: `C:\Software\git-sdk-64\msys2_shell.cmd -defterm -here -no-start -mingw64 -shell zsh`
-7. open windows terminal. you will zsh with p10k theme opening. it might ask you interactively to configure the theme. follow the instructions.
+    add a [new windows terminal profile](https://pureinfotech.com/create-command-tool-profile-windows-terminal/) with the following command line: `C:\Software\git-sdk-64\msys2_shell.cmd -defterm -here -no-start -mingw64 -shell zsh`
+7. **open windows terminal**. you will see zsh with p10k theme. it might ask you interactively to configure the theme. follow the instructions.
 
 That's it! you now have a fully functional awesome zsh terminal on windows!
+
+### Automatic script installation
+TODO: add working script (PRs are welcome)
+
+first install **Install Git for Windows SDK** [latest release](https://github.com/git-for-windows/build-extra/releases) manually. (you probably want the 64bit versions so the file should be named something like `git-sdk-installer-1.0.8-64.7z.exe`) this would takes few minutes and around 5GB of space.
+
+then run the following command in git sdk bash terminal:
+``` bash
+TODO: step 6. add windows terminal profile
+```
