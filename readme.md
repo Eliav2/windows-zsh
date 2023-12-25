@@ -73,7 +73,7 @@ see complete explanation [npm on wsl extremely slow](https://stackoverflow.com/a
     ~/.fzf/install
     ```
 6. **Configuring windows terminal**
-    download these fonts and follow the instructions: https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual-font-installation
+    download [these fonts](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual-font-installation) and follow the instructions(not necessary but recommended).
     add a [new windows terminal profile](https://pureinfotech.com/create-command-tool-profile-windows-terminal/) with the following command line: `C:\Software\git-sdk-64\msys2_shell.cmd -defterm -here -no-start -mingw64 -shell zsh`
 7. **open windows terminal**. you will see zsh with p10k theme. it might ask you interactively to configure the theme. follow the instructions.
 
