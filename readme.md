@@ -37,6 +37,7 @@ see complete explanation [npm on wsl extremely slow](https://stackoverflow.com/a
 
     # to fix common error when running zsh on git-sdk-bash: if you get error when opening "ERROR: this script is obsolete, please see git-completion."
     # see https://stackoverflow.com/a/69396005/10577976
+    mkdir -p ~/.config/git/
     echo "" > ~/.config/git/git-prompt.sh
 
     # install oh-my-zsh
