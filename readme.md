@@ -64,7 +64,7 @@ see complete explanation [npm on wsl extremely slow](https://stackoverflow.com/a
     # this would add the plugin zsh-syntax-highlighting to oh-my-zsh plugins dir
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     # this would activate the plugin when zsh starts
-    echo "source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+    echo "source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 5. **Installing fzf**: run the following commands:
     ```bash
     # install fzf
